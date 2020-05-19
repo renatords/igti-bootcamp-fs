@@ -1,0 +1,27 @@
+.displayInput {
+  color: gray;  
+  background-color:#dddddd;
+  box-sizing: border-box;
+  border: 1px groove;
+  display:inline-block;
+  margin-right:10px; 
+  width:80px;
+  min-height: 20px;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px 0; 
+}
+table tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+
+
+.rectangle{
+    width:100px;
+    height:100px;
+    background: rgb(0,0,0);
+}

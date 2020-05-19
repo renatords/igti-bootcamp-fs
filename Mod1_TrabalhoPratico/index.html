@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Prático do Módulo 1</title>
+  <link rel="stylesheet" href="./css/styless.css" />
+</head>
+<body>
+  <h1>Controle do RGB</h1>
+    <table >
+      <tr>
+        <div class="div1" >
+          <td><label for="pointsR">(R) Vermelho: </label></td>
+          <td><input type="range" id="r" name="pointsR" value='0' min="0" max="255"></input></td>
+          <td><input type="text" id="rLabel" class="displayInput" disabled value='0'></input></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="div2">
+          <td><label for="pointsG">(G) Verde: </label></td>
+          <td><input type="range" id="g" name="pointsG" value='0' min="0" max="255"></input></td>
+          <td><input type="text" id="gLabel" class="displayInput" disabled value='0'></input></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="div3">
+          <td><label for="pointsB">(B) Azul: </label></td>
+          <td><input type="range" id="b" name="pointsB" value='0' min="0" max="255"></input></td>
+          <td><input type="text" id="bLabel" class="displayInput" disabled value='0'></input></td>
+        </div>
+      </tr>
+      <tr>
+        <td></td>
+        <td><div class="rectangle" id="rectangle" ></div></td>
+      </tr>
+    </table>
+    
+  <script src="./js/script.js"></script>
+</body>
+</html>
